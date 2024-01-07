@@ -1,13 +1,16 @@
 body{
 	font-family: 'PT Sans',sans-serif;
 	background-color:black;
+	margin: 0;
+	padding: 0;
 }
 #menu{
 	width: 35px;
 	/* height: 30px; */
-	margin: 30px 0 20px 20px;
+	margin: 10px 0 20px 20px;
 	cursor: pointer;
 	margin-bottom: 0;
+	 
 }
 .bar{
 	height: 5px;
@@ -86,7 +89,7 @@ body{
 	color: #66fcf2;
 	text-align: center;
 	font-size: 120px;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 	margin-top: 0%;
 	padding-top: 0%;
 	/* font-size: 120px;
@@ -119,4 +122,41 @@ text-align: center;
 	color: whitesmoke;
 	margin: 25px;
 	padding: 50px;
+}
+.abouth1
+{
+	color: black;
+	text-align: center;
+	font-size: 120px;
+	
+	line-height: 1.5;
+	margin-top: 0%;
+	padding-top: 0%;
+}
+.about
+{
+	padding: 0%;
+color:black;
+text-align: center;
+font-size: 32px;
+}
+.topmenu
+{
+	color: #66fcf2;
+	margin: 80px;
+	margin-bottom: -94px;
+}
+#about
+{
+	background-color:#66fcf2;
+	color: black;
+	height: 500px;
+}
+.contact
+{
+	text-align: center;
+	font-size: 32px;
+}
+footer{
+	font-size: 15px;
 }
