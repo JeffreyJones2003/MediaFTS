@@ -5,9 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Media FTS</title>
+	<style>
+		   body{ 
+            background-color: black;
+            color:whitesmoke;
+         }
+	</style>
 </head>
 <body>
+	<div class="menu-bg" id="menu-bg"></div>
+		<!-- <h3 class="topmenu">menu</h3> -->
+		<div class=""><h1><!--<span> Menu </span>--><span class="header"><center>Media FTS</center></span></h1></div>
 		<div id="menu-bar">
 			<div id="menu" onclick="onClickMenu()">
 				<div id="bar1" class="bar"></div>
@@ -16,21 +26,20 @@
 			</div>
 			<ul class="nav" id="nav">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="#about">About</a></li>
 				<li><a href="#">Contact</a></li>
-				<li><a href="#">Services</a></li>
+				<li><a href="#services">Services</a></li>
 				<!-- <li><a href="#">Contact</a></li> -->
 			</ul>
 		</div>
-		<div class="menu-bg" id="menu-bg"></div><br>
-		<div class="header"><h1><center>Media FTS</center></h1></div>
+		
 		<div class="hello">
 				<h1>HELLO</h1>
 		</div>
 		<div class="slogan">
-			<p>"We can grow together"</p>
+			<h3>"We can grow together"</h3>
 		</div>
-		<div >
+		<div  id="services">
 			<h1 class="services">OUR SERVICES</h1><br><br>
 			<ul class="services-list">
 			<li><a href="editing.html">Editing</a></li>
@@ -40,6 +49,22 @@
 			<li><a href="websites.html">Websites</a></li>
 			</ul>
 		</div>
+		<div id="about">
+            <h1 class="abouth1">ABOUT</h1>
+            <div class="about">
+                <p>Welcome to our studio, where moments become timeless memories through the lens of creativity and dedication. Our story is woven with a love for capturing the beauty of life in every frame, freezing fleeting moments that tell captivating tales.</p>
+            </div>
+        </div><br><br>
+		<div id="contact">
+			<div>
+				<h1 class="contact">CONTACT</h1>
+			</div><br>
+			<div>  
+				 <!-- <h3>Name : Nitin</h3> -->
+			<center><span style="padding: 20px;"><a href="tel:+91 6383208158"><i class="fa-solid fa-phone fa-xl" style="color: whitesmoke;"></i></a></span> <a href="mailto:nithinselva111@gmail.com"><i class="fa-regular fa-envelope fa-2xl" style="color: whitesmoke;"></i></a> </center>
+			</div>
+		</div><br><br>
+		<footer><center>&copy;  all Copyrights Reserved</center></footer><br><br>
 		<script src="script.js"></script>
 </body>
 </html>
