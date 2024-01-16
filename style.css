@@ -83,18 +83,14 @@ body{
 .header
 {
 	color: #66fcf2;
+	width: 100%;
 }
 .hello
 {
-	color: #66fcf2;
-	text-align: center;
-	font-size: 120px;
-	/* line-height: 1.5; */
-	margin-top: 0%;
-	padding-top: 0%;
-	/* font-size: 120px;
-	margin-top:-30px;
-	padding-top: -10px; */
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/* position: fixed; */
 }
 .slogan
 {
@@ -102,11 +98,13 @@ padding: 0%;
 color:white;
 text-align: center;
 font-size: 32px;
+width: 100%;
 }
 .services
 {
 color: #66fcf2;
 text-align: center;
+width: 100%;
 }
 .services-list li
 {
@@ -128,7 +126,7 @@ text-align: center;
 	color: black;
 	text-align: center;
 	font-size: 120px;
-	
+	width: 100%;
 	line-height: 1.5;
 	margin-top: 0%;
 	padding-top: 0%;
@@ -139,6 +137,7 @@ text-align: center;
 color:black;
 text-align: center;
 font-size: 32px;
+width: 100%;
 }
 .topmenu
 {
@@ -151,12 +150,27 @@ font-size: 32px;
 	background-color:#66fcf2;
 	color: black;
 	height: 500px;
+	width: 100%;
 }
 .contact
 {
 	text-align: center;
 	font-size: 32px;
+	width: 100%;
 }
 footer{
 	font-size: 15px;
+	width: 100%;
+}
+.fts{
+	margin-top: -90px;
+	text-align: center;
+	font-size: 400px;
+	color:#5be2d9;
+}
+.fts-def{
+	margin-top: -350px;
+	text-align: center;
+	font-size: 70px;
+	color:#5be2d9;
 }
